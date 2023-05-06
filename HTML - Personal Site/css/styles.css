@@ -1,0 +1,30 @@
+/* Tag Selectors */
+body {
+    background-color:#ECE5C7;
+}
+
+hr {
+    background-color: #ECE5C7;
+    border-style: dotted none;
+    border-top-style: none;
+    border-color: #354259;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1  {
+    color: #354259;
+}
+
+h3 {
+    color: #354259;
+}
+
+.img:hover {
+    background-color: #8B7E74;
+}
+
+/* Class Selectors */
+.personalpic {
+    background-color:#ECE5C7;
+}

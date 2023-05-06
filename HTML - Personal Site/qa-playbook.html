@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cole's Quality Assurance Playbook</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="firstrule">FIRST rule of QA</p>
+                        <p>
+                            <span>Don't panic.</span>
+                        </p>
+                        <p>
+                            The second rule of QA don't trust anyone. ("Trust but verify")
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p>
+            What does good look like as a Lead?
+            <ul>
+            <li>Be friendly, but don't be their friend.</li>
+            <li>Maintain a stoic outlook and be grounded like a mountain, staying unmoved by the fires that sweep across the environment. Both in-game, and on your internal team.</li>
+            <li>Be proactive during crises and "Code Red" situations, such as when an escaped defect has hit the live game and is causing the company hundreds of thousands of dollars in missed revenue, by finding the facts and work from there to build a case for quality.</li>
+                <ul>
+                    <li>Use this case to understand how to better serve your teams and offer your quality services by bolstering testing processes, assisting in implementing processes for the team, or other solutions.</li>
+                    <li>Taking immediate action and rolling with the emergency will put you leaps and bounds ahead of the others as most QA agents cower in fear with their heads down when a "Code Red" situation arises.</li>
+                    <ul>
+                        <li>A Code Red situation is when:</li> 
+                            <ol>
+                                <li>There is a severe maintenance issue where players cannot enter the game.</li>
+                                <ul>
+                                    <li><em>The implication here is if players cannot enter the game, they:</em></li>
+                                    <ol>
+                                        <li>Cannot spend money (losing present revenue)</li>
+                                        <li>Are more likely to churn (losing customers/future revenue)</li>
+                                    </ol>
+                                </ul>
+                                <li>There is an item that is being given out for free, or less than intended</li>
+                                <li>A high-degree of technical debt</li>
+                            </ol>
+                    </ul>
+                </ul>
+            <li>Have an understanding of what is going on in the game at all times.</li>
+                <ul>
+                    <li>Use the company, project, team, and in-game calendars.</li>
+                    <li> queue knowledge/LTShard schedules</li>
+                    <li>Understand the live games event rotation, which events are scheduled on which days.</li>
+                    <li>Understand the games daily events and when they are scheduled to appear.</li>
+                    <li>Understand when background events or in-game nested dependencies are expiring.</li>
+                    <ul>
+                        <li>Say your game has a tournament, and in that tournament there is a reward. Is that reward static, or limited time? If it is limited time, is the reward available for as long as, or longer than the tournaments duration?</li>
+                    </ul>
+                </ul>
+            <li>Build trust with your teams.</li>
+                <ul>
+                    <li>Trust Equation</li>
+                </ul>
+            </ul>
+        </p>
+        <p></p>
+        <table cellspacing="10">
+            <thead>
+                <td>The Trust Equation</td>
+            </thead>
+            <tbody textalign="center">
+                <tr>
+                    <td>Credibility + Reliability + Vulnerability</td>
+                </tr>
+                <tr>
+                    <td><hr></td>
+                </tr>
+                <tr>
+                    <td>Other <--Orientation--> Self</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>
+            How do people receive your orientation? Is it more for you, or more for others?
+            <br>This applies to each "numerator" in the above equation.
+            <br>Shoot for a balance, too much Other is just as bad as too much Self.
+            <br>Make yourself vulnerable. Meaning, laugh at the mistakes you make, and don't worry about mistakes being visible.
+            <br>If people see you as serious, they don't want to associate with you, as they will feel as though you won't be trustworthy.
+            <br>This word, Reliability, denotes dependability, trust and faith in something or someone. Unlike in the first instance of credibility, the attention paid to whether the information is believable is less. Let us try to understand this through an example as well.
+            <br>Credibility refers to whether something can be believed as true.
+            <br>Reliability refers to relying on someone or something and it translates to being able to have trust and faith in that someone or something.
+        </p>
+        <p>
+            What good looks like, deeply refined
+            <br>incorporating the especially important items, such as
+            <br>setting expectations / managing up
+        </p>
+        <p>
+            Goals & Purpose
+            <br>To provide clarity around ownership and accountability of responsibilities
+            <br>What does good look like in role?
+        </p>
+        <p>
+            Tasks
+            The Quality Lead role requires the individual to take action on their own, at all times. The Quality Lead knows what needs to be done, at any given time, and takes initiative all the while. This includes prioritizing work, and communicating all of this effectively.
+            The nature of LiveOps is as such that things may change at a moments notice, and sometimes more than once. The Quality Lead must remain stoic at all times, and work towards enabling and facilitating the desired changes. Raising concerns, limitations, bandwidth, headcount resources (PTO etc) are all known so that Live Ops Product may make the most intellectual decision at that time.
+            The Quality Lead will assign work to the QA Testers with the expectation of their being completed on, or preferably before the due date.
+            The Quality Lead learns to offer their validation and analysis services as frequently as possible to developers & product.
+        </p>
+        <p>
+            Communication
+            The Quality Lead fosters the QA Testers as a team and rally them to the cause, helping the team work together to become a more powerful operating unit, by listening to their struggles, pain points, and strife's related to work.
+            The Quality Lead works to resolve QA Tester feedback in these areas in an effort to raise efficiency and reduce escaped defects, as well as to build trust, autonomy, and efficiency for the game, the product, and the company.
+            The Quality Lead is able to avoid conflicts in the work space, including internal and external partners, employees, coworkers colleagues, by communicating clearly and without opinions leading to bias. If conflicts do arise, the Quality Lead is able to resolve their social, political, and professional relationships in a way so as to produce a positive outcome, including increased productivity and collaborative efforts.
+        </p>
+        <p>
+            Management
+            The Quality Lead is able to deliver feedback in meaningful ways that not only addresses the issue, why it's a problem, and what we can do differently in the future, but also is able to inspire and motivate the individual as a result of delivering this feedback.
+            The Quality Lead is able to produce and show results if performance fails to meet expectations, and is able to maintain the relationship as a result of giving constructive feedback and criticisms in a manner so as to avoid destroying the relationship between partners.
+            The Quality Lead communicates to the QA Testers, expectations around work, whereas if someone is sick the team either knows to, or is told to, work together to ensure that all events are validated on or before the due date given the time difference (if applicable).
+            The Quality Lead establishes a baseline relationship with its internal and external QA Testers individually, building amicable report with individuals on the team. Avoiding favoritism, but also being able to inspire motivation, and be able to drive results when the team begins to waver in their duties, attention, etc.
+            The Quality Lead learns, maintains, and builds trust of the testers, so as to facilitate a smooth event processing through the pipeline, and knows how to build the trust up if it is ever broken.
+            The Quality Lead is able to hire humans and maintain them in the role for long periods of time, as retention is a large factory in the Quality Leads ability as a leader and manager.
+            The Quality Lead is able to fire humans as necessary, and in professional manner that does not lead to burned bridges, and ill tempered attitudes. Quality Assurance is a small community, and maintaining professional relationships and networking is extremely important.
+            The Quality Lead doesn't seek permission, but instead takes responsibility for their actions, performance, as well as their teams actions and performance. Being able to act during stressful situations in a cool and calm manner will be paramount in the successful performance as a Quality Lead. If the Quality Lead is not able to stay cool and calm during stressful situations, it is naturally deemed fit that the Quality Lead isn't capable to managing the pressure, however real, 
+        </p>
+        <p>
+            Growth
+            The Quality Lead has an open mind to a growth mindset both to himself, and the team he manages, and actively seeks challenges that will help him grow, not only as a person, but as a teammate, as a manager, as a direct report, as an individual contributor, and as a human being.
+            The Quality Lead role will understand that humans inevitably make mistakes, as such knows how to navigate the stressful situations when bringing forward feedback into view, in order to foster growth and change where needed.
+            The Quality Lead understands these mistakes are learning opportunities not only for the Quality Lead, but also useful as a point for those under the Quality Lead.
+            The Quality Lead is responsible for the performance of the QA Associate Lead, and any internal full-time, or contract, QA Analysts. This includes external QA Testers. Being able to grow your team members, and help them get promoted speaks the most volumes as a manager. Doing well to teach well, is arguably one of the most valuable skills a manager might have.
+            Healthy communication, Report
+            Healthy communication from the Quality Lead comes in many forms, but it knows how to influence team members positively by leveraging its strengths; engaging in discussions on technologies, and testing solutions--a cornerstone of learning to influence those team members that the Quality Lead does not directly manage. Sharing information about things/explaining how something works, and going in on the details and why certain things are important, is what really counts to empower the team and inspire autonomy.
+        </p>
+        <p>
+            Relationships
+            Soft skills, in interpersonal relationships, conflict resolution, and are likely to be the largest limiters when it comes to career growth. When presenting hard facts in a casual setting like slack, it is best to be lighthearted, communications should always contain some level of softening the way facts and data are presented. Introducing plausibility into whatever facts are being presented by posing inquiries as innocent questions, is often a most successful form of communication when seeking resolutions, or sharing reminders.
+            Framing reports of any and all findings in the context of Business Value (whenever applicable), and "How" that behavior is detrimental to features, and the apps is one of the most effective means of driving change, and gaining support and allies in driving these changes to reality. "Data driven".
+            The Quality Lead is a provider of information and service, rather than a process enforcer. This extends and applies to those testers that are managed directly or indirectly by the Quality Lead, as well as those whom the Quality Lead works with as peers (LOM/PM/CFT's).
+            What you say, is not as important as how you say it. The frame of what is said and shared is more important than the actual context of the message. This helps to expedite a more amicable relationship between the Quality Lead and the team by simply default.
+        </p>
+        <p>
+            Management
+            Stating you don't have a relationship with the testers is not a valid excuse for not trying to build a relationship. Show up, be present, learn to understand them individually. It's not that hard.
+            Interpersonal/Personal/Professional Relationships
+            You don't get to choose your team, you don't get to choose all the employee's at the company, until you start your own business. As such, being able to resolve your own conflicts with others you collaborate, or work with or around, is a soft skill that must be gained if you don't want to stagnate in your career.
+        </p>
+
+
+        Mission Statement, Sphere of Influence, Stages, Phases, Autonomy
+        To clarify what needs be done to achieve
+        this line is for handwritten notes on the "What does good look like..."
+        Day to Day Ops
+        Responsibilities of overseeing the day to day operations, while managing SGS, and ensuring all deliverables are approved on time.
+        Going above and beyond the call of duty. There are no rules other than obeying the human element. 
+        "deep understanding of what external teams working on and working with them and finding opportunities to improve process or help them become more efficient"
+        "not just bugs it's the impact those bugs have and understanding and identifying which bugs have triage issues from player perspectives, acting as a team representative. This is what "good" representation looks like.
+        Don't just do the job, but do it well.
+        What does this look like? break down the specific actions in the process for what exactly makes this good
+        you know exactly what types of things to put here -- it's all in your runbook/tracking spellbook!
+        What does good healthy effective communication look like?
+        What does creating healthy repore with live ops managers look like?
+        replace each of these lines with vague ish scenario-like statements that can be clearly applied to real life situations as something proven being exercised. If not just in theory.
+
+
+        Assessments
+        To provide transparency on what prevents progress.
+        make structure of assessments
+        where do they want to go -- let this guide my delivery.
+        Empower tester in these areas:
+        these sections (queue)
+        Guide tester on these areas:
+        u know these X things, but you need guidance in x y z (gds sets)
+        Train tester on these areas:
+        She's way outside her depths here. This will require require training.
+        Something like localization, or maybe DeltaDNA
+        qa lead, 5-7 disciplines for being a lead and drill where she's at--
+        if she's empowered in the queue i know i dont have to do anything
+        when theres a question i know she has trouble with X
+        if she's never done it and has no idea she might require training.
+        she might be all good to feel empowered for other things, but she might need training for A and B.
+        responsibilities list of things not presently being met
+        what things are needed to get you from here to here
+        healthy comms
+        repore w/ liveops managers
+
+
+        In Conclusion
+        To provide clarity on the follow through
+        If these hurdles aren't overcome, that does not mean the end of _________
+        If not now, not never, likely later.
+        not making promises
+        rn no opps, no real long term opps - ifopp was here today u rdy? no. lets talk about what needs to get u there, so ur first in line for the interview.
+        If we can't close the gap with you now, no big deal, we'll try again next time soon. And again, and again.
+        This is what we're working towards at all times.
+
+
+
+
+
+
+        Intro notes
+        Clarity of expectations.
+        Not ready yet
+        Why? - Areas for improvement: effective communication
+        Reasoning: I want to set you up for success. I want you to be the best Quality Lead that ever was, in order to do that I feel it's my duty to share everything that I feel I may have.
+        What do you need to get there
+        Requirements not be met in the next MARCH/APRIL months, we will not move forward with the promotion.
+        I have very little doubt able to handle the daily duties and handle deliverables, manage the external team, and all the workload that we presently work together on, but that's arguably half of what the job requires.
+        I think the main area of improvement for you to close the gap on in is your communication. 
+        Tiny tweaks lead to big changes. Using this method of tiny tweaks, I want to start focusing on your communication as much as you'll allow, in order to get you to that point. This way, you can hone your sharp communications to be used as a tool instead of all the time.
+        As you'll notice, I'm starting to heavily take on new responsibilities, a large portion of the DPM role left behind by Shawn.
+        I'll be spearheading a new role as a QA Project Manager.
+        We currently don't have one of these at Scopely.
+        It will be taking a lot of my energy and attention to ramp up on these over the coming 4-6 months.
+        As such, I'll be expecting you, everyday, to be meeting these expectations as well.
+
+        What you need to do:
+        "Lead" stand up everyday
+        15 minutes before each stand up, prepare for stand up. Review the calendar, see what we're needing next, and see what other urgent blockers/fixes are needed to be addressed.
+        You don't really have to "lead" anything, everyone knows what stand up is for, they'll start talking without being asked
+        Prepare your top 3 priorities for the day
+        if your priorities require dependencies, prepare the questions in advance
+        15 minutes isn't a lot of time, we want to keep it 15 minutes, so learn to manage your time first and then you'll be able to manage the time in the meeting.
+
+
+        Offerings
+        Proactive approach  teaching tools
+        objectivity
+        focus on facts
+        stuff like this?
+        Reactive approach "the police"
+        Give you feedback on your communications after you've communicated.
+        pros:
+        easier positive feedback loop can be altered closed
+        cons:
+        if communications are too negative, they could damage relations and social/political capital
+
+        Requirements
+        Show marked improvement in interpersonal and cross functional communications
+        Demonstrate effective team communications and represent Quality for TWD in stand up, in all cross functional meetings, and speak for QA when necessary.
+        Proven ability to work comfortably in a high paced and fluid environment. The ability to take chaos and organize it to move the team forward is a must!
+        emotional reactions?^
+
+
+        Work this in
+        My Key Responsibilities
+        Identifying and mitigating risks in Event Planning 
+        Ensure that upcoming events are within QA's capability and scope.
+        Data data data. Know what the team can handle down to as small as you're able to analyse. Having data to back up your bandwidth decisions is like the ultimate weapon.
+        Make a jira filter!
+        i.e. Cloud Packs won't be interfering
+        TWD team schedule differences
+        upcoming holidays/bank holidays
+
+        My Offerings Available for You
+        Guidance, direction, assistance.
+        In order to be successful you'll need to keep an open mind, and challenge yourself. Nobody gets anywhere by themselves, for the adage of "standing on the shoulders of giants" rings true. We succeed with the help of others.
+        I won't do any of the work, but will guide you as much or as little as you like.
+        ask or allow them to come to me?
+        clarity around "hand holding"
+
+
+        What Qualities are Especially Important? (emphasis)
+        Proven outstanding and effective communication. Communicate til you're blue in the face. Obviously don't over do it, but 2-3 times repeating yourself is likely a good target.
+        It's always better to be a little annoying, than it is to not communicate at all.
+        A good rule of thumb us: Communicating once (1x) is more or less the same as not communicating at all.
+        Tracking dependencies and blockers, anticipating fixes
+        Ensuring tracking documents/filters are up to date
+        Don't take it personally! Everyone's doing the best they can, given what they've got. Give them the benefit of the doubt, and lend your expertise in areas where you may serve to benefit your team members.
+        Emotional Intelligence
+        When faced with a situation where someone has done something you find to be egregious, take all the time you need to calm down before taking any action.
+        Ask yourself:
+        Do I want to remind, or do I want to punish?
+        Remind if it's needed. Otherwise continue.
+        Obviously, punishing someone for something has never proven to be effective.
+        Am I Angry?
+        That's my problem. It's ok to be angry, but it's ineffective. (Take some time to watch something on YouTube for laughs!)
+        Can I Let It Go?
+        If so--Wait, and then defer it completely.
+
+
+        On being a LiveOps Quality Lead
+        One of the most important things I have ever learned is this:
+        We are not our work.
+        Said another way, we are not the work that we do.
+        Applying this concept to nearly everything at work has allowed me to look at work separately from the human beings that do the work. This in and of itself helps build a positive foundation for communication on the team.
+        All human beings make mistakes, as such it is vitally important we understand this as a constant, and have empathy for the human element, but remember that a Quality Lead shares information and knowledge, and shouldn't enforce process. (Stay flexible.)
+        The Quality Lead position is a salary position. As you may already know, when we move into the salary position, it is imperative that the employee understand that the allocation of funds being given to you on a periodic basis is given out of expectation that, regardless of the amount of hours you work, regardless of when you work, regardless of even where you get the work done, you will do whatever it takes to get the job done on time.
+        This can mean some, or many, random late nights depending how you manage your time.
+        With this responsibility comes great freedom--if you are able to build out a system that works for you and is visible to others, you can make it work well for yourself.
+        On Face Time and Visibility. No not the iOS app, it's face-to-face time with your team. In-office, in-the-trenches-with-everyone-else, physical presence time. Showing the team you're here and working, arguably holds more value more than producing high quality results and not being present. (Though obviously that wouldn't last long if maintained.)
+        When working from home, make an effort to be visible in chat throughout the day, every single day you are working from home. This will show the team you're not only available as you said you were (and thus keeping your word), but also proves the adage of "actions speak louder than words". The action of your chat messages being seen on screen will create comfort on the team, and builds their confidence in you, as well as the work needing to get done. This all creates a presence that will be appreciated and acknowledged, even if not verbally shared by anyone.
+        Since we're now without a day shift QA team, knowing what your tasks are, and who you're expected to work with, will vary.
+        Just be sure to be in close communications when working directly with the product team and cross functional teams.
+        If you're able to share what you're working on in stand up, there's no need to be "visible" in chat simply for the sake of being "visible". Working directly with your team in DM's is sufficient, as those individuals will see your diligent work ethics first hand.
+        As a manager, when you gain direct reports, you will be entirely responsible for their growth and performance. You will hire them, and fire them.
+        This means having "those" conversations. Being prepared to deliver these statements will take guts. For contractors, you can have Volt tell the contractors of their employment status. However, if you get a Full Time employee who needs to be fired, you will have to do it yourself.
+        Being a manager means you're fully prepared to hire, fire anyone at any time, and have those really difficult talks. Even on your worst day, no matter what happened in your personal life, or how you're feeling.
+        Being a manager means you must maintain a stoic outlook "at all times". (This is something like meditation. You just constantly try to do it always. You'll fail by getting visibly upset, or have small outbursts, and continue to try, and fail again, but the goal is to be stoic as much of the time as possible.)
+        It's fine to be visibly frustrated, but when you're not in control (i.e., very clearly controlled by your emotions in the moment) it chips away at the trust on the team. It's viewed in a way that is to serve as detrimental context to your ability to get the job done.
+        As an aside, the things that occur at work to get us upset and worked up, are actually not good reasons to get upset or worked up. They're simply problems that need to be addressed, and nothing more.
+        I don't wanna say "put on a smile and be like "Yeah okay!"" but in a manner of speaking, being able to do this all the time, and not be emotionally upset by anything that happens, is probably the main goal of all managers and management. Through time it'll get easier.
+        Namely, as LiveOps Quality Lead, you’re responsible for quality output of the Live Ops team. If they (the LOM's and product) make mistakes by not involving you, or not providing you the info you need, then they are effectively not enabling you (and by extension, QA and your QA team) to be fully effective at their job. This is a concern for quality.
+        It's important to remember, nobody is maliciously thinking to screw over the Quality Lead, or "mess with QA". LiveOps moves fast, and sometimes we get stressed and forget to communicate. We're human beings, we're foible prone, and being understanding in this will go long and far in making positive changes on your team.
+        Just as well, focusing on the quality output everyone is doing is generally a concern to focus on.
+        Examples: General Missed Info in Jira, Inquiries, Content Wrong/Poor -- cause more work for QA.
+        If QA is not doing what is expected, then we must retrain/review in order to get back on track, or implement new processes.
+        If LiveOps isn't delivering quality events to QA (tons of errors, not checking the event configuration before sending it over) then a step in the right direction would be to align them on process, and have the LiveOps product person start reviewing their events prior to sending them to QA.
+        If events come to QA clean, then QA has an easier time verifying, and returning the approved event to LiveOps. If we can minimize the back-and-forth of fix requests, we can increase efficiency.
+        It's the Quality Lead's responsibility to create processes whenever there is a need. This includes editing/modifying/changing processes.
+        If there is not a consistent expectation for how to do one off asks, and a process doesn't yet exist yet, then it's likely not worth pursuing. I want to be clear that saying no, while helpful, should only be done if you feel there is no bandwidth.
+        Saying no is not being insubordinate or defiant, it's simply a matter of expressing why we're unable to accommodate. (Th
+        Think: If I had to ask my testers at Amber/SGS to do this task, would they be able to without having to tell them what to do?
+        If the answer is no, it's likely not a good idea to pursue a test request of this scope.
+        When you become a LiveOps Quality Lead, you're essentially on the management team. This means that, while you may feel it necessary to serve your QA team as your #1 priority, your perspective actually needs to shift. The cross functional team goals and the goals and targets set by the Project Leads, are the goals and targets you want to do everything you can to help the team achieve.
+        It may sound/seem a bit crude, but the team of testers that helps you complete those tasks that are your responsibility, are your second team, not your first. Your first team is the LiveOps Managers, Producers, PM's, and CS, and the like.
+        Serve your secondary team, but remember that in the end your first team is what matters most. Work with them to ensure you feel supported in your endeavors.
+        Your second team is simply there to assist you in your responsibilities. As QA Lead, there is simply too much work to be done by any one person, and that is why we have the team of direct reports (and indirect reports like SGS/Amber).
+
+
+
+
+        Setting Expectations/Managing Up
+            Sometimes, if you do not manage up, you will fail to set expectations of others you work with. It could put you in an awkward position of having to defend and explain yourself if you're caught off guard. A typical scenario where this occurs often is when you complain, stress, express visually, verbally, non-verbally, etc about something repeatedly, even if you're handling it well and making progress on it, others will not feel confident in your ability to get it done.
+            An ideal scenario would be you as the Quality Lead, reporting to me still. Learning to manage up, to me, and any of your future managers/bosses for that matter, will serve you well. It essentially helps to prevent me from having to ask/bother/prod you for updates on specific things, and let's me know you're not only on top of things, but keeping me in the loop also communicates to me that you're actively trying to keep me abreast of what is currently on your plate. This, in turn, helps me to support you better as well.
+            I had a similar encounter with a superior and they had expectations that I wasn't in a good place even I was, and my team was. It was my expression of how I'm dealing with the stress and what's going on with my team that alerted others. I felt like the QA team was in a healthy place, but others who were above me did not know this. How you start anything, sets the tone for everything else.
+            We want to be cautious with how we manage our relationships with Amber, SGS--anyone we work with as the Quality Lead, and avoid a situation of them building a perception that we're not being transparent with the challenges we have. You're directly responsible for how the operate, the processes they follow, and the directions you give them. Hopefully this helps. Let me know if you want to go over any of this further.
+        Manage Expectations
+        Managing Expectations for SGS
+        Clearly define what is expected (each day, every week, each month, per event type, whatever it is--be clear)
+        If we've gotten off track
+        Find out how to get back on track
+        Get back to me if they need support
+        I would like to see what your plan is? Put it on Cuong Dang to solve it, its his team.
+        In fact, I would take this to him every time or as much as possible, whenever there is an issue. Let him solve it.
+        Expectations haven't really changed, so it could be an internal problem, or an external problem, both likely outside of our control.
+        But not outside of our Scope of influence.
+
+
+        On Managing Teams
+            I could write a lot here, and still be missing a ton of valuable information. For now I'll include the following tidbits I've learned that have helped me immensely in my communications.
+        Never ever ask the question of "Why?".
+        This means when something didn't get touched/approved/worked on/tested, don't ask:
+        "Why wasn't this done?"
+        "Why didn't you test this?"
+        "Why didn't we complete ______ event?"
+        The "Why" question is an unanswerable question. "Why did you do the thing?" Most humans don't have an answer, it's actually quite frustrating to ask, because they did it because they did it.
+        Avoiding asking this question will force you to think more critically at what information you're trying to acquire. Doing so will help you ask more productive, pointed questions.
+        When faced with something you're unsure about, always ask yourself: "Why would a reasonable, rational, sane person do this thing?"
+        This is probably one of the most helpful questions I've ever learned to ask myself when I'm faced with some situation that makes me go "Wtf?".
+        People RARELY act maliciously in the workplace. Sometimes people do things that inconvenience us, but it's never in a way as intentionally wanting to mess with anyone.
+        This is where the Quality Lead can shine, and instead of enforcing process, simply provide information as a reminder in private, and it will usually go well.
+        Kill them with kindness.
+        You can be stern, strict, have high expectations, and still be kind. This one is maybe more of my own tip, as it's something that I've learned really helps in helping to understand your team's struggles, strife, and pain points.
+
+
+        Product, Process, People
+        These are the three things a manager should be focusing on, everyday, on any given day.
+        Product
+        Knowing your product really well, will help you understand areas where your team may need improvement.
+        This will steer you in the right direction, where you may understand some areas have higher risk than others.
+        Process
+        Understanding processes, being able to improve, modify, change, and create them, is key to successful QA team.
+        Processes can't fix or solve everything, but they do help to set expectations on the teams using them, and find inefficiencies within the process to highlight areas of improvement.
+        Work processes need to be able to provide consistent, repeatable results.
+        People
+        Your people are everything to you, in a sense. They are there to help you do your job. You're the expert, and in order to get your work complete, you will need to dive into the trenches often to assist.
+        Jumping into the trenches builds trust, and fosters good relations with your direct reports, as well as the people you manage, even if they are not your direct reports.
+        Understanding their pain points and learning how to find creative solutions to remedy them is an excellent quality.
+            So, do you have a people problem, or a process problem?
+        Late Changes, are a people/operational problem
+        Process cannot necessarily help fix these issues, but it may.
+        Localization, Copy, and all other issues encountered are process problems.
+        Process can and should be able to fix these issues.
+
+
+        vvvvRunBookvvvv
+
+        “Shocking news, being a manager is not about managing other people, it’s about effectively and efficiently managing yourself as a resource (your time, productivity, logic aka brain power etc) which then transcends how you manage other people.”
+
+
+        Areas of Ownership
+        Testing Pipeline
+        You own everything that QA touches. From the moment work is passed to you from LiveOps Management/Product team, until you've validated the task, and handed it back to them.
+        It's up to you to ensure that the QA process is as efficient as possible.
+        More efficiency means more time savings, and less speed bumps, less blockers, and less time for you having to spend on silly small things that are not deserving of your time.
+        Autonomy and efficiency are closely related. Keep in mind that it isn't so important "how" something gets done, rather that the specific criteria set forth by our test cases and requirements are addressed and verified. Everyone works a little differently, and allowing them to do so will allow you to focus on those important things without having to worry about whether or not something is getting done correctly.
+        New Features
+        To own this area, you will be expected to be an expert in the new upcoming feature.
+        You will have to work with the Client folks (Shawn on Scopely side, and likely IUGO family for whichever team is developing the feature.) to get the upcoming builds prior to them being live. Likely via HockeyApp, or a Google Beta Group.
+        Google Beta Group Link: INSERT LINK FOR GOOGLE BETA GROUP
+        You are expected to become proficient with the related admin tools for the new feature/event on the appropriate QA realm in order to gain familiarity with the tool, and be able to guide LiveOps QA through the process of testing, if need be.
+        You are expected to create a "guide" of some sort, to be distributed to the QA Team (includes: Amber, SGS, Scopely). It's your job to find out the edge cases, expectations, and be a point of contact and expert in the new feature, before LiveOps QA gets their hands on it.
+        Guide may exist in the form of:
+        "Risks & Highlights" style email
+        Documentation (in confluence ideally; others: Gdocs)
+
+
+        Event Requirements
+        We require, and should be persistent to pressure the team to provide, documentation for event requirements. This is primarily directed at Multi-Week events, though may also account for smaller one-off events for revenue.
+        These events are typically composed of gacha, and a sourcing of that-which-is-used-to-engage-in-the-gacha. This could include, but is not limited to, Mystery Bags, Targeted Offers, Collections, Tournaments, Roadmaps, etc.
+        Why do/should we require it?
+        CS, Marketing, everyone comes to QA for our assistance. In general, people think "If anyone knows about the game it has to be QA."
+        There is a reason for this, and that's because we have the best information around. In order to continue that, we need to uphold our team to quality standards to maintain this.
+        External QA teams will often have questions around the events and how they are configured.
+        I can't count how many times I've sat down, willingly and happily, with the team at Amber and SGS, to schedule the event, and figure out how it works. It's a good way to build relations with your testers, but it's really a big waste of time in the big picture, as this information should be readily available and provided prior to being delivered to QA.
+        QA should be able to support the team no matter what department requires assistance.
+        Except bloodless builds. See "Awkward/Odd/"I've never been asked this before"/One-Off Requests" below.
+
+
+        Feedback
+        Feedback is about the future. Delaying feedback is "Okay". Quicker is better, but immediacy is not enough if the purpose isn't right. Maybe, just don't give the feedback!
+        In very few instances do you not want to give feedback. I'd recommend not giving feedback if the individual is clearly upset, and is not likely to take the feedback well in that moment.
+        If individuals continue to deny the acceptance of feedback, then it becomes feedback of another problematic nature: unwillingness to collaborate and improve performance.
+        Manage to the strengths of the team! Don't manage the fires!
+        As always, there will be instances where feedback will be needing given. You, the LiveOps Quality Lead, need to give feedback to both your external partners (Like SGS Producer Cuong, or Amber Project Manager George Pana), or even to individual testers depending on the severity.
+        Easiest way to do this is to say, "Hey, I don't want to make a big deal out of this, but __X__ thing happened, and it should have been __Y__. Can you help me understand what happened?"
+        Understand how the person feels when receiving feedback, often they feel bad enough for making a mistake, and sometimes guilty for letting their team down.
+        Sometimes some testers just don't care, but usually this becomes very obvious. Even still, always assume they care.
+        You're in a position of power, and absolute power corrupts absolutely. Nothing they say or do should move you from the unmoved mountain you stay on.
+        For all issues encountered that were not called out by Amber/SGS, communicating these things, no matter how small or nitpicky, to Team Leads (Cuong or George Pana) is your obligation.
+        I've informed George of the miss in "new" mention for Dr Stevens. A straight forward message to keep him in the loop, as I believe he should know about performance related events on his team. He's also stated this desire to know his teams misses, as it helps us to focus on quality.
+        "Hey, just wanted to be aware/let you know that our tester missed a thing in this specific event. It caused X/Y/Z."
+        For all issues encountered that were not called out, and for all escaped defects, by SGS, communicating these things, no matter how small or nitpicky, to Mathias Lino (Project Manager at SGS) is your obligation.
+        Informing Mathias of these issues is simple. Simply share the facts and objective information, the follow up action, and how it may be resolved going forward. He wants this feedback. SGS being a new relation for Scopely, they want to prove themselves worthy and do so by showing results and performance.
+        For all feedback, you don't always have to have a resolution in mind, but doing so helps one to ensure quality all around
+        Feedback is about the future.
+        Delay is Okay. Quicker is better, but immediacy is not enough if the purpose isn't right.
+        Maybe, just don't give the feedback!
+        Manage to the individuals strengths! Don't manage the fires!
+
+
+        Focus on what went wrong each day. These Live Ops Issues are bugs and snags and such blockers:
+        Testing inbox message and spending time talking about it when it isn't going out -- wasted efforts, energy, and time testing, talking about, and validating.
+
+
+        One-Off Requests
+        (Awkward/Odd/"I've never been asked this before"/One-Off Requests)
+        Example: Amber asks for "Bloodless Builds" (a production game client with "blood and gore" turned "off".
+        Sometimes you might receive a weird request from an Amber tester, or one of the partners. Amber leadership might make an inquiry indirectly through an Amber tester, and use them to make the inquiry.
+        Specifically, the inquiry made for this referenced event was to gain access to a Bloodless build. (Korean)
+        We do not accommodate these types of requests. They have to contact marketing. Do not waste LiveOps QA time on these requests, even if there is nothing in queue. This is not part of the LiveOps QA job description, and it is not why we are paying them for their service.
+        If the requests persist, kindly reiterate "as per my last email" until ad infinitude. There is no way you should even be entertaining these requests.
+        Why not? Because it is not in our contract, and we are not obliged to humor the request, and they should not be asking you this.
+        Art/Design asks for specific tests
+        Sometimes Designers might come to you and ask how we might be able to facilitate testing characters. This type of testing should be handled by IUGO's client/functionality QA.
+        While it'd be great if we could, the answer should be humored and heard in full, but decidedly declined. I may regret putting it here in this guide, but I made the mistake of signing up for testing characters more, only to have to spend energy and time to unravel the braid I wove with setting this expectation.
+        Please use your critical thinking, by and large LiveOps QA does not have a formal process, nor bandwidth consistently, to be able to facilitate this type of request.
+        Additionally, LiveOps QA must have a process for this type of request, and since one does not exist, we cannot pursue it with confidence. Processes are a must for this type of thing, as multiple game teams around the world use our formalized and standardized process, and any requests without a process will decidedly be less effective, and may prove disastrous based on unclear expectations, assumed expected results, or misunderstood acceptance criteria.
+
+
+        Meetings
+        SGS Syncs
+        Bi-Weekly Sync with Mathias (SGS)
+        Time with Mathias is pleasant, but pointed and strictly business. I have not yet built a personal relation with Mathias to the point of experiencing anything outside of business. However, he is extremely pleasant to speak with, and intelligent.
+        Really wants to know about all the issues on the team. He, as well as the SGS team, aspire to be the best, without saying so.
+        Vietnamese bank holidays.
+        Scopely LiveOps Stand Up
+        This is your time to ensure we're all on track.
+        Items to review EVERYDAY:
+        What are today's Priorities?
+        Pick 3 priorities for QA, and 3 for LOM's as needed.
+        QA priorities can be tracked casually, but they should be communicated more formally. Stand up communication, and Slack review of the days priorities is good.
+        LOM Priorities can be tracked casually, no need to formalize the list of priorities for LOM's.
+        If more than 3, then there are no priorities. Kind of like, if everything is on fire, nothing is on fire. Make priorities clear.
+        Reasoning behind this is; if you have more than 3 priorities, everything is a priority. (You may still prioritize beyond the top 3, but this is meant to set the stage.)
+        Ideally, pick the biggest "frogs" to be the top 3 priorities.
+        We want to get rid of the biggest, ugliest, nastiest, events first and foremost, as those will exponentially be troublesome to deal with even later in the production cycle, if we encounter issues. Best to get them out of the way quickly.
+        What's needed in QA next?
+        Look at what we have, and what day we're at. Leverage the calendar/gantt to understand which events are needed next. Make a list and use it in the stand up.
+        This is meant to protect you. While everyone on the LiveOps team, should more or less know what needs to be done, and while nobody should be solely relying on the Quality Lead to inform them of this, it's meant to be built as a defense.
+        What's needed to be scheduled in Release Execution?
+        Tickets "not yet scheduled" should still appear in the "Release Execution" column.
+        Review what has been approved already and lightly touch on each ticket not yet scheduled.
+        Seek IUGO for Content Updates, CP updates, and dependencies like art assets and ally mults.
+        Ask about force updates and CP's.
+        Be wary of intended release dates. These are the bottleneck dates. Be sure to push hard to work around the dates we intend to release CP's.
+        It should also be known and front of mind: CP's sometimes get delayed beyond the original date. Planning ahead and getting the LiveOps team to a place where we can afford to delay a CP allows for QA to stay ahead, and stay flexible to accommodate.
+        Upcoming personal PTO
+        Known PTO for LiveOps teams
+        Off-Sites
+        Amber Syncs
+        BiWeekly Sync w/ Amber
+        A good time to maintain business relations, and foster team solidarity. Encourage the team to voice concerns, pain points, and other inefficiencies.
+        Tip: While our team now is generally shy, it will take some time to coax them out of their shell.
+        Alexandru and George M are shy, but will speak up and speak out about issues when given the chance.
+        Romanian Bank Holidays (Doesn't need to be both but can be both meetings)
+        BiWeekly Sync w/ George Pana (Amber Project Manager)
+        Time spent with George will likely switch between pleasant personal relations and serious business action items. It's quite smooth but it's a fun rhythm to dance with him to.
+        We discuss business items very seriously, but also acknowledge the human elements of our lives and foster bonds through relating in this manner.
+        George has a lot of solutions and insight when it comes to issues so he is a good resources to pick his brain.
+        Romanian Bank Holidays (Doesn't need to be both but can be both meetings)
+
+
+        Hiring
+        Guidelines/Tips
+        For Phone Screens... typically this isn't necessary unless you're looking to backfill or hire by yourself. Typically staffing agencies will handle a lot of the direct applicants and help to surface them to us as we need.
+        Phone Screens (DO PHONE SCREENS. ALL. THE. TIME. If you are able. It's SO much easier for you and you will waste no time at all.)
+        Schedule 1 hour for each 15 minute Phone Screen.
+        Yes, limit all phone screens to 15 minutes, the idea is to allow for an hour in case you want to dive deeper with the candidate. (i.e., they turn out to be really good)
+        If they aren't a solid candidate, end the call after 15 minutes. GET OUT OF THERE. Waste no time, you're busy and have to go. So tell them. "Alright thank you for your time, that's all the time I have for you today, we will be in touch." And say something like a "Thank you for your time" and then HANG TF UP. If they insist, just hang up and don't hire them. Obviously they're not responsive or caring of your time if they keep pestering you to keep you on the line.
+        Fact Checking
+        If a candidate gives you a figure (number, value, percentages), write it down. Write down the context, you will want to ask about this specific figure during the interview if you bring them in.
+        If the figure they give you is different than the one given over the phone...
+        Candidates should be doing most of the talking.
+        It's about them. Ask questions that do 2 things: address 
+        Offer some Phone Screen times outside of normal business hours.
+        Great candidates may need to be at their job during working hours.
+        No more than 4 hours total of phone interviews per day. (Which means 4 candidates. I'd hard limit myself to 5 per day if it gets to be that way.)
+        This helps to prevent "phone interview fatigue", where we start to become robotic reading the same questions (as is expected).
+        Candidates can pick up on this phone interview fatigue and it may be taken as a sign of disinterest from you.
+        Always ask the same questions, to every candidate.
+        Levels the playing field for candidates.
+        Makes it easier for you to compare candidates, and speak of them to stakeholders on the team who may have a say, or input, in the hiring.
+        Hiring Contractors:
+        If the candidate has DIRECTLY applied for the position....
+        You should be able to lean on the Scopely side of processing new candidates via Volt and the recruitment team. Ideally someone from recruitment at Scopely should be able to assist you with setting up schedules and interviews.
+        If the candidate has NOT DIRECTLY applied for the position...
+        This is what I did initially to find some candidates that Kevin Connors picked out for me, who previously applied for Dev QA Tester positions.
+        This would be a semi-cold call, as the position you have open is not the one they applied for, and not one they may desire.
+        As such you will need to do a phone screen on your own.
+        How do I do that?
+        Receive the resume and find the candidates email.
+        If possible study their LinkedIn profile, or find some information on the internet to get an idea of the persons character.
+        If you haven't already, create a Calendly.com account for free.
+        This allows the candidate to select a time you're available without having the back and forth headache.
+        Calendly will allow you to require them to input their phone number so you can call them.
+        Email the candidate, and inquire about their (#1) interest in the position that they didn't apply for (but we think they'd be a good fit), (#2) availability for a phone screen.
+        Be sure to state clearly that the phone screen is for a position they did not apply for in this specific example. If they did you shouldn't have read this far down.
+        Be sure to include the link so they can schedule the meeting.
+        Wait for their response!
+
+
+        PTO / Time off
+        You’ll want to alert the team of course (Use the headshot-internal mailing list and the live ops qa mailing lists) and address who will be covering for you.
+        You’ll want to alert Amber/SGS as well a couple days before and ideally a reminder the day before
+        1 - Make sure all bases are covered and everyone is all good with it
+        2 - With as much advance notice as can be given send an email, and then on the day of, or prior, email the team notifying them you’ll be out
+        3 - Always make sure you’re covered
+        4 - Enjoy yoself!
+
+
+
+        QA Lead Manifesto
+        Do research & become an expert in the following areas:
+        Effective team management (5+people)
+        Understand Testing Process
+        Implementing Testing Process
+        Defining scope of testing in projects
+        Deploy & manage testing frameworks
+        Implement & record QA metrics
+        Manage & select QA tools & processes
+
+
+        Principles
+        Learn to influence project members positively by leveraging your strengths by identifying strengths, engage in discussions on technology & testing solutions, establish team vision, provide autonomy, learn all mistakes. This shows leadership & management capacity.
+        Report findings in the context of business value. Present "How" behavior is detrimental to features & apps.
+        Be a provider of information & service, rather than a process enforcer. Learn to offer your validation & analysis services as frequently as possible to developers & product.
+        Learn to provide & identify information to make informed decisions versus simple "bug notes". Present findings & recommendations & the impact to the end goal of the app or feature under test. This allows stakeholders to make informed decisions & isolate errors.
+        Learn to identify items that slow down testing. Look at time + effort spent to set up testing environments, test data, & prerequisites. These are the best candidates for reuse & streamlining. Tracking effort & time on these will also allow evaluation of where actual "testing' time is spent on a project & help improve tasks that slow everyone down. (Delivering results!)
+
+
+
+
+        ------------------------------
+
+
+
+
+        Live Ops Associate - The Walking Dead: Road To Survival - Job Specification
+
+        Description:
+
+        The Live Ops Associate is a critical function within the product team that collaborates very closely with the Producer, Product Manager, Live Ops Manager, Deployment Project Manager / QA, Engineering/Platform Team, Customer Service, RevOps and external development partner on the product as a live service. The Live Ops Associate ensures all live events are functioning correctly on applicable environments as well after going live, owns and tests live ads daily to ensure they are functioning correctly and manages the relationship and two-way communication for Live Ops with Customer Service to ensure key issues reported are prioritized and transparent to all stakeholders.
+
+        What will you do?
+
+        Own testing of live events for The Walking Dead: Road To Survival. 
+        Perform qualitative assessments of Live Events.
+        As part of the live events testing, learn the liveops administration tools, QA them and propose/recommend tool and event improvements.  
+        Preparation and execution of Live Ops test plans.
+        Check that Live Ops content is localized and showing correctly in the appropriate languages.
+        Test balance data implementation for Live Ops A/B experiments.
+        Collaborate with CS to ensure key Live Ops issues reported are prioritized. 
+        Owns The Walking Dead: Road To Survival live ads (incentivized videos and offerwalls) quality and tests live ads daily. 
+
+
+        Live Ops Quality Lead
+        Live Ops Associate Quality Lead
+        Own testing of live events for The Walking Dead: Road To Survival.
+        Own the testing pipeline, identifying opportunities to improve efficiency and working with cross functional leads to ensure that the team is operating at a high capacity.
+        These are all points that set a solid foundation to grow upon. These are all game team and product related points, that should translate well to the Quality Lead role.
+        Since you're an expert in the following (and should/will be able to share/coach/teach that knowledge):
+        Perform qualitative assessments of Live Events.
+        As part of the live events testing, learn the liveops administration tools, QA them and propose/recommend tool and event improvements.  
+        Preparation and execution of Live Ops test plans.
+        Check that Live Ops content is localized and showing correctly in the appropriate languages.
+        Test balance data implementation for Live Ops A/B experiments.
+        Collaborate with CS to ensure key Live Ops issues reported are prioritized. 
+        Owns The Walking Dead: Road To Survival live ads (incentivized videos and offerwalls) quality and tests live ads daily. 
+        Use your expertise and knowledge to learn, and master the following:
+        Manage scheduling, and resourcing, the QA team, identifying dependencies and changes needed to staffing
+        This means it's up to you to figure out how to achieve your outcome. We consolidated at SGS in order to foster higher quality output and synergy with our already allocated resources to stay within our budget.
+        Lead a team of internal QA analysts, directing their daily efforts as well as supporting their individual career growth.
+        These QA analysts and QA external teams are your soldiers. You're the General. Treat them well. They're just fellow humans trying to have fun and work hard.
+        Oversee external QA team(s), setting up test plans, priorities, reporting, and supporting broader team initiatives.
+        These QA analysts and QA external teams are your soldiers. You're the General. Treat them well. They're just fellow humans trying to have fun and work hard.
+        Ensure that Live Ops content is localized and showing correctly in the appropriate languages.
+        Same as you've done in the past, but at a higher level.
+        Work with all disciplines and leads to ensure proper coverage is provided for all aspects of Live Ops development.
+        Communication and organization are most important here. Covering every angle is difficult if we're not organized.
+        Represent Live Ops QA with cross functional team goals.
+        As a Quality Lead, you own, enforce, and drive results that are agreed on with the cross functional team.
+        Work with Live Ops and Product teams to anticipate risks and tool needs for upcoming events and features.
+        Being able to report on feedback given by the team and raise concerns and dependencies becomes of the utmost importance to ensure a smooth workflow and autonomy.
+        Work with internal and external teams to drive fixes and optimize the processes involved; implement preventive measures.
+        Identify and report on issue trends and common risks, driving quality across the Live Ops team.
+        Provide qualitative feedback on all content going into the game, being the customer representative and advocate, identifying issues beyond the basic "does it function” test pass.
+        Degree level education or equivalent experience.
+        Minimum 4 years of QA experience.
+        Proven ability to own, build and iterate functions and processes.
+        Experience working in an internal or distributed development environment and manage relationships with cross functional teams.
+        Previous experience of building test plans.
+        Communicate in a clear and concise manner both written and verbally.
+        Proactively identify risks, changes needed and execute solutions, with appropriate sense of urgency.
+        Comfortability working in a high paced and fluid environment. The ability to take chaos and organize it to move the team forward is a must!
+        Passion for mobile games and experience working on games as a live service.
+        Proficient with setting up and navigating through JIRA, Google Docs, Google Sheets/Excel.
+        Exceptional attention to detail.
+
+        Degree level education or equivalent experience.
+        Minimum 3 years of QA experience.
+        2 years of experience working in a cross functional team.
+        Proven ability to own, build and iterate functions and processes.
+        Experience working in an internal or distributed development environment and manage relationships with cross functional teams.
+        Previous experience of building test plans.
+        Strong and demonstrated knowledge of software development methodologies
+        Communicate in a clear and concise manner both written and verbally.
+        Proactively identify risks, changes needed and execute solutions, with appropriate sense of urgency.
+        Passion for mobile games and experience working on games as a live service.
+        Proficient with setting up and navigating through JIRA, Google Docs, Google Sheets/Excel.
+        Exceptional attention to detail.
+
+
+
+
+
+        Here's a list of what I need from you, what I need you to work on, what you need to do to be ready. This isn't a guarantee, but here's how you can improve. I need to feel confident that you'll be able to handle your own  confident.
+
+        List of things for Lead:
+        Be a voice for the QA Team (your testers). Speak up for the team, raise concerns, help steer the team and direction of work for the team.
+        Own the QA pipeline, understand, at all times, how much bandwidth QA has, and have a general understanding of how to facilitate LiveOps needs at any point.
+        Help lead meetings
+
+        ****I also want to preface this whole journey with, regardless of what occurs, there's no negative in my perspective. I think you're a rock star in your current role, and in the event it doesn't work out, it doesn't mean you won't get it in the future. I certainly want what is best for you.
+
+        Things to Share:
+        Operationally it's a leads responsibility for how the team functions. It's your responsibility to figure out how to help the team be more effective.
+        Productivity
+        Productivty
+        Operational
+        Relational
+        -Defined Processes
+        -Clarity in Role (provide clarity in every team members role)
+        -Structural (how the team is structured)
+        -Tools to be successful
+
+
+        -Earn and hold trust with and of the team
+        -Comfort with the team
+        -Work and life balance
+
+        High Level Stuff:
+        Do we have...
+        the correct # of QA?
+        proper test cases for quality coverage
+        process for fixes
+        process for approvals
+        For me, if I wasn't here, what things would need to get done? This kind of stuff is what I think about.
+        How to best serve the LOMs in our quest for Quality
+        serving up (giving process)
+        Finding areas to help bolster quality by serving quality up
+        serving down (implementing process for qa team)
+        Understanding process in order to better support LOMs & Team in providing quality services
+        Understanding the LOM approach to performance and revenue will help you cater to their needs as well as deliver events and prioritize as needed.
+        Understanding budgets, and how to get what you want (like a contractor, or more testers)
+        going through budgets and doing simple maths to ascertain if something is possible.
+
+        On Being a lead:
+        Focusing on projects and showing you can increase efficiency.
+        Responsible for how a team works and how they do things. Process.
+        If a meeting is too demanding, then we can certainly leverage a hand off email (situation like SGS/nightshift).
+        (Thinking of creative ways to solve problems is going to be a major area for you to grow. Make decisions like science experiments. See what works well for you, and what works and what doesn't work based on the requirements.)
+        We need to be sure that all teams are managed. This may require some extra time initially, but that's simply a small problem to be solved with efficiency.
+        The Lead position is a Salary position. It is expected of you that you do not log hours as you may work erratic hours from time to time, but it also means you have more freedom to decide your schedule. We're only able to carve that out well by  ensuring we're consistently delivering and on top of everything and proving we can handle what is being thrown at us.
+        Lead position is a (somewhat) more social, people oriented position. You can leverage much of the position with online computer mediated communications, but nothing will replace the requirement of face to face interaction when speaking on quality assurance related matters in meetings on bandwidth, concerns, and giving guidance and/or convincing parties with data on which direction to pursue. This also includes having to screen for candidates and understanding what good looks like yourself so you can hire the appropriate people.
+        On hiring: while it's good to hire skilled individuals, it is often the case for people to hire those whom seem a likely fit for the team culture than their initial skill level. Each new person changes the team dynamic, and being able to pick the right candidate for the team and position becomes a focal point, as more often than not candidates can be taught best practices needed to be successful in a position.
+        I'd recommend hiring for culture and team fit, over skill set any day of any week. You can always teach someone how to do something. You cannot teach someone how to get along with others, and learn how to be socially apt at navigating different personalities if they don't already know how.
+
+        If there's no solution, then you won't get the promotion and we will back fill the position. That doesn't mean you're fired. That doesn't mean you don't get raises. That doesn't mean you're not appreciated. Please don't be afraid of this not working. It's okay for this to be a thing of "as long as you need to take to get there". It is acceptable. Don't be afraid to fail. In fact, if you're not willing to fail, you'll likely never achieve anything worthwhile in life, including pushing yourself outside of your comfort zone.
+
+
+
+        Proactivity:
+        Use Evernote to track tasks.
+        More Vocal about Work:
+        []Notice when we have gaps in capacity or no work in queue. Voice the status, and ask if there are items we can make progress on (tournaments for subsequent months, etc).
+        Listen to what Nim says, what Jon says, what Trung says, what Spencer says. Whatever initiatives or functions are mentioned, try to align the team and processes to support these directives, and drive results in this direction.
+        Document the findings and results and serve them to the team leads, to show an exemplary example of my ability.
+        Upcoming
+        Features, binaries, PRD to review.
+        Digest these documents and serve them to help the team primarily transfer smoothly the operation of testing new features.
+
+
+
+        Things to do:
+        Look to making efficient, the efficiency that has been created.
+        How to get meta efficiency by building on built structures?
+        How can I create a system that will allow me to expand on different ideas, and further allow me to create systems out of that system?
+
+
+        DECK/CHARTS
+        Deck for data on issues encountered over past year
+        include avg issues encountered per issue type
+        Research Jira Plug Ins (Look atI need to find the right tools so that my employees can do my job effectively, and with minimal management/oversight.)
+        QA related
+        QA reporting using Jira
+        Jira scripts for QA reporting
+        find QA tools.
+        Emails:
+        Bug Visibility:
+        Continue to drive changes and quality of life changes into the game. Raise bug issues, display the severity and widespread 
+        Streamline the processes we have even more
+        Remove all manual work in our daily processes, or reduce the work required on the manual end.
+
+
+        Things I want you to focus on:
+        Team efficiency
+        Distribution of work for external testers (should be even)
+        understand who the power players are on the team, and who is good at what types of events if any
+        This also serves to push responsibility on the team. Some of our testers are lazy, others not so much. Distributing work within each sprint evenly is the goal, whereas if a ticket is assigned to someone with the appropriate dates, they'll be much more able to deliver it within the time frame.
+        Testers might wait until the last minute to do an event as well, so this helps to prevent tickets from sitting in queue.
+        Be able to resolve inter-personal conflicts on your own.
+        Seeking advices, guidance, coaching, etc, does not count as resolving conflicts as your own, happy to provide guidance and help, but I will not step in and mediate or ask about these things. As your manager that is not my job. My job is to ensure you have the tools needed to be successful in your current role.
+        If you want to seek promotion, what got you to where you are now, will not help you in getting the promotion.
+        You'll need to change your behaviors in order to achieve the promotion.
+        Main focus areas are in social situations, communications both face to face, internally, externally, over email, and slack.
+        Lead position is much less a role for individual contribution. I have no questions or concerns around your ability to handle the individual contributions required of the role, however most of this role is not individual contribution, but interpersonal relationships, and communication via management.
+        Until I feel confident you're able to stand on your own in this area, I will not be promoting you.
+        I want to promote you, but if I did I would not be able to feel confident you can handle all the ins and outs of navigating as a manager.
+        Reasons for this are the facts you've brought up on multiple occasions, situations and events related to professional relationships, and it seems apparent that you're unable to resolve your own relationship conflicts without a third party, and for this reason I am not able to promote you.
+        Exhibit an ability to resolve personal conflicts without a third party mediating or intervening.
+        Exhibit an ability to resolve personal conflicts with minimal guidance/coaching/advice. -- Being able to ask for help shows more strength and communicates to your manager that you are trying your best and doing what you can to learn to be better. I don't see much effort in you trying to be better. It's not clear to me.
+        I want you to be as fully prepared as possible, and be able to have the tools needed to be successful in the Lead role, with the minimum of needed skills.
+        A reputation exists for you in other peoples perspectives. What is that reputation? It's unclear exactly specifically, but people have expressed that you're abrasive and difficult to talk to/interact with. The gut feeling people have is a reactionary rejection, so as to avoid confrontation with you. This has only come from those interactions in public chat channels. Unfair as it may be, this is what people see.
+        This is also not acceptable behavior as a manager, something to be aware of.
+        Two ways I can give you feedback for social situations relating to things like this:
+        1: Proactive, overbearing, review of messages. This is something I am not going to do for you. It's much too ridiculous an expectation to have for either of us.
+        Why it's good:
+        Allows reviewing of context and delivery, and reasoning/why it'd make a difference in the interaction (if applicable)
+        Why it's bad:
+        This removes all autonomy from communication, and relies heavily on the relativity of communication.
+        2: Reactive: Upon noticing communications sent by you, I'd ask to give you feedback on what has been said.
+        Why it's good:
+        This will most effectively allow me to help guide you through sticky social situations.
+        Why it's bad:
+        Whatever damage, if any, caused by your communications would have already been done, and the relationship will have need for repairing and reconciling.
+
+
+
+
+        Tips from when I started:
+
+        General Stuff to be aware of:
+        This is the ticket to updating the team! Always:
+        Things to consider:
+        What is actually changing from event to event? high risk areas? What to do with your frustrations when changes happen that don’t normally change, and we aren't told?
+        Instruct the team to pay attention to this point if there are changes to the specific areas that are standardized
+
+        What should I be working on?
+        A question to be answered FOR Lead, and BY Lead.
+        Look ahead, what's coming in that needs facilitating? Any requirements? GDS sets for client strings, (question for multi week events), 
+        Did a card come in? What is its priority? What should be tested first?
+        It's okay to have them switch gears. Focus on what requires immediate attention. Order them to switch gears, even halt testing if necessary. Be aware of the disruption of flow that will occur if the emergency is severe enough to warrant a full stop on present tasks.
+        Look at the Gantt and figure out what is highest priority.
+        Any blockers of events found and tracked in LOC Tracker? Or the Live Issues Tracker?
+
+        Clueless about a question?
+        If asked something you don't know the answer to, admit it, and say you're going to find out. It's okay.
+        Ways to figure out the answer:
+
+        Strong understanding of SGS/and Amber/ teams biggest inefficiencies -- are they being used in the best possible way? better and faster? We need to understand what's not working or what can be done faster/better.
+
+        Scopely Tenants:
+        -Play To Win
+        -Create Peoples' Obsessions
+        -Iterate to Success
+        -Embrace the Adventure
+
+        Use the tenants and objectives in the company pyramid for personal gain. How? Look at the blocks in the pyramid, and see if and how, they are applicable to your product, field, team, etc. Use these objectives/goals as reasons for driving change in your area (if applicable) and drive the intended results. Being able to point and show this will mean gold to company management.
+        Example: -To be the leading publisher of mobile games, we need to be able to accommodate the demands and needs of the LiveOps production team.
+
+        LiveOps Best Practices:
+        good written now
+        addressing the root of problems
+        is this best way to do each thing?
+        solutions to processes
+        change to way things get implemented
+        things to push onto live ops product (dependencies)
+        where are the inefficiencies in their current operation?
+        are they in a healthy place?
+        is there something we can do to help improve?
+
+        Come up with more, add/remove these ones, and make it visible and known on the team. Best Practices will help the team perform at higher levels of quality.
+
+        start with what project needs then start with she wants
+        and see what's needed - gaps
+        milestone level problem -- not just seniority in your role, you're now stepping into another realm of roles that requires a diff set of skills. -- What got you here, won't get you there. Real changes are needed)
+        seniority vs responsibility -- opportunity w/in next cycle - could be within a year from now (promotion). Gated by her readiness, opportunity, & comfortable with it being 6-12+ months in the event the opportunity isn't there
+
+
+
+    </body>
+
+
+
+</html>
